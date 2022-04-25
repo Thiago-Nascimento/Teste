@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@400;600;700&display=swap');
+
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+       
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#barras {
+    display: none;
+}
+
+
+.icone-menu {
+    height: 40px;
+}
+
+.logo {}
+
+
+.banner {
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.banner-f1 {
+    background-image: url(../img/banner_pilotos.png);
+}
+
+.banner-cs {
+    background-image: url(../img/banner_cs.png);
+}
+
+.banner-lol{
+    background-image: url(../img/banner_lol.png);
+}
+
+.posicionamento-banner {
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.conteudo-banner{
+   width: 495px;
+   height: 300px;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+    color: white;
+}
+
+.conteudo-banner a{
+    padding: 15px;
+  
+    color: white;
+    background-color: #C31616;
+    border-radius: 5px;
+    
+    font-family: "Roboto";
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.conteudo-banner h1 {
+    font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.conteudo-banner p{
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.jogos{
+    height: 120px;
+    background-color: #000000;  
+
+}
+
+.posicionamento-jogos {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.posicionamento-jogos img {
+    width: 150px;
+}
+
+
+
+.ofertas {
+    background-color: #1E1C21;
+    padding-top: 20px;
+    /* width: 100%;
+    height: 850px; */
+}
+
+.ofertas h2{
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 35px;
+    /* line-height: 2.2; */
+}
+
+
+
+
+.espaco-produtos {
+    /* width: 100%;
+    height: 100% px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.cardnews {
+    width: 220px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #313131;
+    border-radius: 5px;
+    margin: 3%;
+       
+}
+
+.cardnews img {
+    width: 100%;
+    height: 43%;
+    border-radius: 5px;
+    
+}
+
+.texto-cardnews {
+    width: 85%;
+    height: 51%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+   }
+
+.cardnews h3 {
+    color:white;
+    font-family: "Roboto";
+  }
+
+.descricao-jogo {
+    color:white;
+    font-family: "Roboto";
+}
+
+.preco {
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+.cardnews a {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 2;
+    background-color: #C31616;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 600;
+    
+    /* padding: 10px;
+    
+
+    font-size: 13px; */
+}
+
+
+.descri-ligas {
+    /* height: 500px; */
+    background-image: url(../img/Fundo-participar-ligas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec-ligas {
+    width: 55%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.sec-ligas h3{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+
+.sec-ligas p {
+    color: white;
+    font-family: "Roboto";
+}
+
+.conteudo-descri-ligas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* .personagem-lol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+} */
+
+footer {
+   background-color: #1E1C21; 
+}
+
+.rodape{
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    /* height: 250px; */
+    /* background-color: #010101; */
+}
+
+.links-rodape {
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.links-rodape li{
+    color: white;
+    text-decoration: none;
+}
+
+.links-rodape a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* .logo-eplayers{
+    padding: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+} */
+
+.form-social {
+    width: 25%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   */
+}
+
+
+.form-social p {
+    color: white;
+    font-family: "Roboto";
+}
+
+.form-social form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-social input[typer="email"]{
+    height: 37px;
+    width: 65%;
+    border-radius: 0px;
+    border-style: none;
+    text-indent: 5px;
+}
+
+
+.form-social button {
+    width: 35%;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #001F70;
+    border: none;
+    padding: 5px;
+    /* display: inline-block; */
+    /* padding: 3px 5px;
+    margin: 4x 2x; */
+}
+
+
+
+
+.redes-sociais {
+    /* width: 100%;
+    height: 30%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 2px;
+}
+
+.redes-sociais h2{
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+
+.div-login {
+    background-color: #201f22;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* height: 350px; */
+    padding: 50px;
+}
+
+.login-itens {
+    /* width: 50%;
+    height: 50%; */
+
+}
+
+/* .entrada-dados {
+  
+    display: inline;
+    justify-content: center;
+  
+} */
+
+.entrada-dados img {
+    width: 50%;
+    height: 50%
+}
+
+.form-login {
+    align-items: center;
+}
+
+.form-login input {
+    height: 37px;
+    /* width: 5%; */
+    border-radius: 0px;
+    border-style: none;
+    text-indent: 5px;
+}
+
+
+.form-login button {
+   text-transform: uppercase;
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #090a0e;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.botão-login {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .cabecalho {
+        position: relative;
+    }
+
+
+    .menu {
+        display: none;
+
+        position: absolute;
+        top: 80px;
+        right: 70px;
+
+        height: 400px;
+
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #1E1C21;
+        align-items: center;
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+
+    #barras {
+        display: inline-block;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: darkblue;
+    }
+    .logo {
+        width: 100px;
+    }
+}
+
